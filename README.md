@@ -6,20 +6,25 @@ Short tutorials are here:
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 https://www.digitalocean.com/community/tutorials/how-to-use-git-branches
 
-Dispay all adresses you have registered for that repositry 
-git remote -v
+Dispay all adresses you have registered for that repository::
 
-Setup your forked online repository path
-git remote add my_origin https://urlto_repository_here
+    git remote -v
 
-create new branch and checkout
-git checkout -b newbranchname
+Setup your forked online repository path::
 
-make changes and commit all changes
-git commit -a
+    git remote add my_origin https://urlto_repository_here
 
-push to forked repository
-git push my_origin newbranchname
+create new branch and checkout::
+  
+    git checkout -b newbranchname
+
+make changes and commit all changes::
+  
+    git commit -a
+
+push to forked repository::
+  
+    git push my_origin newbranchname
 
 In case branch is close to completion send pull request to master
 Go in browser to main repository and click PullRequest and select the branch you want to have merged.
